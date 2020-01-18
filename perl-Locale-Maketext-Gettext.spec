@@ -1,6 +1,6 @@
 Name:           perl-Locale-Maketext-Gettext
 Version:        1.27
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        Joins the gettext and Maketext frameworks
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -54,6 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.27-13
+- Mass rebuild 2013-12-27
+
 * Tue Mar 19 2013 Rüdiger Landmann <rlandman@redhat.com> 1.27-12
 - Patch properly this time
 
